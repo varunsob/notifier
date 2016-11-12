@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Notifier</title>
+		
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Internal CSS-->
+		<link href="css/form.css" rel="stylesheet">
+		
+		<!-- JavaScript libraries -->
+		<script src="https://js.pusher.com/3.2/pusher.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/common.js"></script>
+	</head>
+	<body>
+		<div class="form-wrapper">
+			<div class="form">
+				<div id="message" class="alert alert-info" style="display:none;"></div>
+				<form action="#">
+					<input id="fname" name="fname" type="text" class="frmInput" placeholder="First Name"/>
+					<input id="lname" name="lname" type="text" class="frmInput" placeholder="Last Name"/>
+					<select id="gender" name="gender" class="frmInput">
+						<option value="" disabled selected>Gender</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
